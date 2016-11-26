@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/spark2_app"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:id="@+id/imageView1" />
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:textSize="30px"
+        android:layout_gravity="center"
+        android:gravity="center" />
+    <Button
+        android:text="Salida"
+        android:layout_width="match_parent"
+        android:layout_height="80.5dp"
+        android:id="@+id/button1"
+        android:layout_marginBottom="67.5dp"
+        android:textSize="80px" />
+    <TextView
+        android:text="Fecha Entrada:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <TextView
+        android:text="Fecha Salida:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+</LinearLayout>
